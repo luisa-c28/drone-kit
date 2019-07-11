@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+"""
+Software to control the motion of a vehicle
+"""
+
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 from geographiclib.geodesic import Geodesic
 def calculate_waypoints(lat,lon,alt,box_size):
